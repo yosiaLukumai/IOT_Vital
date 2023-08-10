@@ -6,10 +6,6 @@ export const useMediaQuery = () => {
         height: window.innerHeight
     })
 
-
-    
-
-
     const setDimension = () => {
         getDimension({
             width: window.innerWidth,
